@@ -47,10 +47,10 @@ CREATE TABLE IF NOT EXISTS `comments` (
 
 INSERT INTO `comments` (`comment_id`, `comment`, `post_id`, `comment_date`, `is_valid`, `author_id`) VALUES
 (133, 'Article très interessant, merci!', 107, '2020-03-15 00:00:00', 1, 1),
-(135, 'Top, merci', 107, '2020-03-17 00:00:00', 1, 7),
-(136, 'Article très interessant, merci!\r\n', 108, '2020-03-17 00:00:00', 1, 7),
+(135, 'Top, merci', 107, '2020-03-17 00:00:00', 1, 2),
+(136, 'Article très interessant, merci!\r\n', 108, '2020-03-17 00:00:00', 1, 2),
 (138, 'Merci', 108, '2020-03-17 00:00:00', 1, 1),
-(139, 'Merci', 108, '2020-03-17 00:00:00', NULL, 1),
+(139, 'Merci', 108, '2020-03-17 00:00:00', NULL, 1);
 
 
 -- --------------------------------------------------------
@@ -105,7 +105,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`user_id`, `username`, `email`, `password`, `user_status`) VALUES
 (1, 'Nicolas', 'nicolas@gmail.com', '$2y$10$t3rMCMOAxXv1Rd.898NhveJTtrL6Fi6OLcfosz9YoUNpH3CVg6kWa', 1),
-(2, 'Jean', 'jean@gmail.com', '$2y$10$IS8l8SOciIQm.ONWXXf0Gemb0I0D05Rs36q60BnIKqwBD79lZNHPy', 2),
+(2, 'Jean', 'jean@gmail.com', '$2y$10$IS8l8SOciIQm.ONWXXf0Gemb0I0D05Rs36q60BnIKqwBD79lZNHPy', 2);
 
 
 -- --------------------------------------------------------
